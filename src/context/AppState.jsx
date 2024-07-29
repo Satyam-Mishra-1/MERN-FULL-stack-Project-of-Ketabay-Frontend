@@ -5,7 +5,9 @@ import { ToastContainer, toast, Bounce } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 
 const AppState = (props) => {
-  const url = "http://localhost:1000/api";
+  // const url = "http://localhost:1000/api";
+
+  const url = "https://buy-kitabay-a-complete-mern-stack-y0c6.onrender.com/api";
 
   const [products, setProducts] = useState([]);
   const [token, setToken] = useState([]);
